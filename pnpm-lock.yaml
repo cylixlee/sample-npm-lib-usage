@@ -1,0 +1,30 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@cylixlee/sample-npm-lib':
+        specifier: ^1.0.0
+        version: 1.0.0
+
+packages:
+
+  '@cylixlee/sample-npm-lib@1.0.0':
+    resolution: {integrity: sha512-nV2jgnD0uh6HSN2gPFjabo6JTqgGaJ5DH5IQjdqWQIaWBHb5UH8rZ47hPGAlKmeOnkVcRBnMTKsD24Aac/K+tg==}
+
+  chalk@5.4.1:
+    resolution: {integrity: sha512-zgVZuo2WcZgfUEmsn6eO3kINexW8RAE4maiQ8QNs8CtpPCSyMiYsULR3HQYkm3w8FIA3SberyMJMSldGsW+U3w==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+
+snapshots:
+
+  '@cylixlee/sample-npm-lib@1.0.0':
+    dependencies:
+      chalk: 5.4.1
+
+  chalk@5.4.1: {}
